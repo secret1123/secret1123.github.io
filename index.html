@@ -2,161 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <title>Title</title>
     <style>
-        @import "css/resume.css";
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        #body {
+            width: auto;
+            height: 680px;
+            background: black;
+            color: darkgoldenrod;
+        }
+        #top {
+            float: right;
+            margin-top: 160px;
+            margin-right: 200px;
+            /*width: auto;*/
+            height: 60px;
+        }
+        #top2 {
+            float: right;
+            padding-top: 230px;
+            height: 60px;
+            position: absolute;
+            left:900px;
+        }
+        h1 {
+            font-size: 50px;
+            font-family: Serif,sans-serif;
+        }
+        #bottom {
+            height: 30px;
+            margin-top: 340px;
+            padding-right: 5px;
+            padding-left: 260px;
+            border: solid wheat;
+            border-radius: 50px;
+            top: -15px;
+            position: absolute;
+        }
+        #bottom2 {
+            height: 30px;
+            margin-top: 380px;
+            margin-left: 180px;
+            border: solid wheat;
+            border-radius: 50px;
+            padding-right: 260px;
+            padding-left: 5px;
+            top: -15px;
+            position: absolute;
+        }
+        a {
+            color:darkgoldenrod;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #065279;
+        }
+      /* #book
+        {
+            color: saddlebrown;
+            margin: 0;
+            !*width:23px;*!
+            height:0;
+            !*background:black;*!
+            transition:width 2s;
+        }
+
+      #book:hover
+        {
+            width:300px;
+        }*/
     </style>
 </head>
 <body>
-<div>
-    <div id="head">
-            <div id="ul">
-                <ul>
-                    <li><a href="https://github.com/secret1123">Overview</a></li>
-                    <li><a href="https://github.com/secret1123?tab=repositories">Repositories</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-
-    </div>
-<br>
-
-    <div id="body">
-        <span id="hand1">
-            <div id="l">
-                <img src="image/me.jpg">
-            </div>
-            <h1><img src="image/star1.png">言行一致，才是成功的开始。</h1>
-                <div>
-                     <div id="leftcontent">
-
-            <div class="an1">
-                <h3 class="folat">
-                    <hr width="240px" style="position: absolute; top: 15px; left: 130px">
-                    <img src="image/next.png">个人简介
-                </h3>
-                <div class="circle2"></div>
-                <hr class="hr1" width="1px" size="120px"
-                    style="border-color:dimgray;float: left;border-left: none;border-bottom: none;border-top:none ; margin-top: 10px; margin-left: 20px; ">
-                <div class="left1">
-                    <p>学历：</p>
-                    <p>专业：</p>
-                    <p>星座：</p>
-                </div>
-            </div>
-            <div style="clear: both"></div>
-            <div class="an1">
-                <h3>
-                    <hr width="240px" style="position: absolute; top: 15px; left: 130px">
-                    <img src="image/next.png">联系方式
-                </h3>
-                <hr class="hr2" width="1px" size="130px"
-                    style="margin-left: 20px;border-right-color:dimgray; float: left;border-left: none;border-bottom: none;border-top:none ; margin-top: 10px">
-                <div class="left1">
-                    <p>学历：</p>
-                    <p>专业：</p>
-                    <p>星座：</p>
-                </div>
-
-            <div id="hexagon" style="position: relative;top: 180px;left: 19px"></div>
-
-        </div>
-            </div>
-                </div>
-                <div style="clear: both"></div>
-                <div class="an1">
-                <h3 class="folat">
-                    <hr width="240px" style="position: absolute; top: 15px; left: 130px">
-                    <img src="image/next.png">活跃指数
-                </h3>
-                    <div class="foot2-1">
-                <h2>技能</h2>
-         <div>
-            <div class="creative1">java</div>
-            <div class="bar">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-            </div>
-        </div>
-        <div>
-            <div class="creative1">web</div>
-            <div class="bar">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-            </div>
-        </div>
-        <div>
-            <div class="creative1">date</div>
-            <div class="bar">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-            </div>
-        </div>
-            </div>
-                   <div class="foot2-1">
-                <h2>爱好</h2>
-         <div>
-            <div class="creative1">音乐</div>
-            <div class="bar">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-            </div>
-        </div>
-        <div>
-            <div class="creative1">阅读</div>
-            <div class="bar">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-            </div>
-        </div>
-        <div>
-            <div class="creative1">爬山</div>
-            <div class="bar">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-            </div>
-        </div>
-      </div>
-    </div>
-        </span>
-        <span id="hand2">
-    <div class="h3" style="position: relative;">
-        <div class="m1">
-      <h3 class="up"><img src="image/next.png">个人简历<hr style="color: pink; position: absolute;top: 26px;left:150px;width: 400px"> </h3>
-        <p>工作能力及其他专长</p>
-
-　　<p>1.扎实的JAVA基础知识，熟悉面向对象编程思想，熟练MVC设计模式。</p>
-
-　　<p>2.熟悉JAVA、HTML、XML等语言的软件开发;</p>
-
-　　<p>3.精通JSP，Servlet，JDBC，JSTL等Web开发技术</p>
-
-    <p>4.熟练J2EE(Javabean，struts，hibernate，spring)+ Apache Tomcat 5.0开发;</p>
-
-　　<p>5.熟悉SQL-Server、MySQL，Oracle数据库的操作;</p>
-        </div>
-    </div>
-
-  <div class="h3" style="position: relative;">
-        <div class="m1">
-            <h3 class="up"><img src="image/next.png">个人简历<hr style="color: pink; position: absolute;top: 26px;left:150px;width: 400px"> </h3>
-
-        </div>
-    </div>
-            <div class="clear"></div>
-        </span>
-    </div>
-    <div id="footer">
-
-    <h1 id="h2">
-        <img src="image/bouquet.svg" width="35" height="35">
-        contact me
-        <img src="image/bouquet.svg" width="35" height="35">
-    </h1>
+<div id="body">
+ <!--   <div id="book">
+    <img src="image/telphone.png">
+        tel:155****1565
+    </div>-->
+<div id="top">
+    <h1>安 璐</h1>
+</div>
+<div id="top2" >
+<h1>Java/Web</h1>
+</div>
+<div id="bottom">
+    <h3>GitHub</h3>
+</div>
+<div id="bottom2"><img src="image/J.png">
+<a href="https://github.com/secret1123">https://github.com/secret1123</a>
 </div>
 </div>
 </body>
 </html>
-
