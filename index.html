@@ -8,28 +8,24 @@
             margin: 0;
             padding: 0;
         }
-        .clear {
-            clear: both;
-        }
         #body {
             width: auto;
             height: 680px;
-            background: black;
-            color: darkgoldenrod;
+            /*background: black;*/
+            color: lightseagreen;
         }
         #top {
             float: right;
-            margin-top: 160px;
+            margin-top: 100px;
             margin-right: 200px;
-            /*width: auto;*/
             height: 60px;
         }
         #top2 {
             float: right;
-            padding-top: 230px;
+            padding-top: 160px;
             height: 60px;
             position: absolute;
-            left:900px;
+            left:930px;
         }
         h1 {
             font-size: 50px;
@@ -40,7 +36,7 @@
             margin-top: 340px;
             padding-right: 5px;
             padding-left: 260px;
-            border: solid wheat;
+            border: solid lightseagreen;
             border-radius: 50px;
             top: -15px;
             position: absolute;
@@ -49,7 +45,7 @@
             height: 30px;
             margin-top: 380px;
             margin-left: 180px;
-            border: solid wheat;
+            border: solid lightseagreen;
             border-radius: 50px;
             padding-right: 260px;
             padding-left: 5px;
@@ -57,34 +53,39 @@
             position: absolute;
         }
         a {
-            color:darkgoldenrod;
+            color:lightseagreen;
             text-decoration: none;
         }
         a:hover {
             color: #065279;
         }
-      /* #book
-        {
-            color: saddlebrown;
-            margin: 0;
-            !*width:23px;*!
-            height:0;
-            !*background:black;*!
-            transition:width 2s;
+        .box{
+            overflow: hidden;
+            width:48px;height: 48px;
         }
 
-      #book:hover
-        {
-            width:300px;
-        }*/
+        .box img{
+            float: left
+        }
+        .box .box1{
+            margin-top: 20px;
+            float:left;font-size: 16px;
+        }
+        .box:hover{
+            width:150px;
+        }
+        .box1 {
+            color: lightseagreen;
+        }
     </style>
 </head>
 <body>
+<div class="box">
+    <img src="image/padlock.png"/>
+
+    <div class="box1">15517531565</div>
+</div>
 <div id="body">
- <!--   <div id="book">
-    <img src="image/telphone.png">
-        tel:155****1565
-    </div>-->
 <div id="top">
     <h1>安 璐</h1>
 </div>
